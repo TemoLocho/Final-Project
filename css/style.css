@@ -16,7 +16,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 720px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,8 +29,8 @@ header {
     padding: 37px 240px;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(213, 144, 110, 0.52);
     align-items: center;
+    background-color: rgba(213, 144, 110, 0.52);
     position: fixed;
     top: 0;
     left: 50%;
@@ -53,14 +52,7 @@ header {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    transition: all;
     transition-duration: 0.4s;
-}
-
-.li_header:hover,
-.li_1_header:hover {
-    font-size: 25px;
-    color: aqua
 }
 
 .li_1_header {
@@ -72,16 +64,28 @@ header {
     transition-duration: 0.4s;
 }
 
-/* .logo:hover{
-box-shadow: 0 0 10px rgba(224, 15, 15, 1);
+.li_header:hover,
+.li_1_header:hover {
+    font-size: 25px;
+    color: aqua
+}
 
-} */
+
+.logo:hover{
+    transition-duration: 0.5s;
+}
+
+.logo:hover{
+box-shadow: 0px 20px 20px rgba(221, 8, 8, 1);
+
+}
+
 
 
 .sing_box {
+    width: 10%;
     display: flex;
     gap: 16px;
-    border: 2px solid blue;
 }
 
 .text_sign {
@@ -90,7 +94,6 @@ box-shadow: 0 0 10px rgba(224, 15, 15, 1);
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-
 }
 
 .shoppingbag {
@@ -117,9 +120,9 @@ box-shadow: 0 0 10px rgba(224, 15, 15, 1);
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     margin-top: 16px;
     margin-bottom: 85px;
+    text-align: center;
 
 }
 
@@ -144,15 +147,17 @@ button {
     margin: 160px auto;
     display: flex;
     gap: 60px;
-    justify-content: center;
 }
 
 figure {
     display: flex;
     flex-direction: column;
-    gap: 24px;
     align-items: center;
+    gap: 24px;
+}
 
+.img_figure {
+    width: 100%;
 }
 
 .text_figure {
@@ -170,9 +175,13 @@ figure {
 
 .section_galery {
     width: 100%;
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #402101;
-    padding: 96px 365px;
-    border: 2px solid blue;
+
+    /* padding: 96px 365px; */
 }
 
 h1 {
@@ -182,14 +191,17 @@ h1 {
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 40px;
-    text-align: center;
 }
 
 .grid_conteiner {
-    width: 100%;
+    width: 65%;
     display: grid;
-    grid-template-columns: 315px 60px 315px 60px 440px;
-    grid-template-rows: 322px 60px 260px;
+    grid-template-columns: 2fr 60px 2fr 60px 3fr;
+    grid-template-rows: 300px 60px 200px;
+
+    /* grid-template-columns: 315px 60px 315px 60px 440px;
+    grid-template-rows: 322px 60px 260px; */
+
     grid-template-areas:
         "img1 img1 img1 . img2"
         ". . . . ."
@@ -197,23 +209,90 @@ h1 {
 }
 
 .grid_img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     grid-area: img1;
 }
 
 .grid_img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     grid-area: img2;
 }
 
 .grid_img3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     grid-area: img3;
 }
 
 .grid_img4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     grid-area: img4;
 }
 
 .grid_img5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     grid-area: img5;
 }
 
 /* section-galery-end */
+
+/* products */
+
+h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #402101;
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 40px;
+}
+
+.all_products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.div_products {
+    width: 75%;
+    display: flex;
+    gap: 60px;
+
+    /* border: 2px solid red; */
+}
+
+.div_1 {
+    display: flex;
+    position: relative;
+}
+
+.products_img {
+    width: 100%;
+}
+
+.products_price {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B53B1B;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    padding: 15px 17px;
+    top: 70%;
+    left: 5%;
+    transform: translate(70% 5%);
+}
