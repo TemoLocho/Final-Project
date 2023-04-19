@@ -8,10 +8,13 @@
 
     header {
         padding: 37px 80px;
-
     }
 
     .nav_header {
+        display: none;
+    }
+
+    .half_logo {
         display: none;
     }
 
@@ -65,6 +68,10 @@
         padding: 120px 0px 90px 0px;
     }
 
+    .half_logo {
+        display: none;
+    }
+
     .h1_section1 {
         width: 90%;
         margin-top: 90px;
@@ -75,14 +82,15 @@
         width: 80%;
         margin-bottom: 45px;
     }
+
     /* section1 end */
-    
+
 
     /* products  */
     .h3_products {
         margin-top: 50px;
-    } 
-    
+    }
+
     .all_products {
         width: 95%;
     }
@@ -99,27 +107,113 @@
     .div_1 {
         width: 45%;
     }
+
     /* products end  */
 
 
     /* section_subscribe */
     .section_subscribe {
-    height: 240px;
-    margin-top: 80px;
+        height: 240px;
+        margin-top: 80px;
     }
 
     .h4_subscribe {
-    margin-bottom: 26px;
+        margin-bottom: 26px;
     }
 
-    .form_subscribe{
+    .form_subscribe {
         width: 50%;
     }
+
     /* section_subscribe end  */
     /* page 1 end  */
 
 }
 
 @media (max-width: 850px) {
-    
+
+    /* header  */
+    header {
+        padding: 37px 30px;
+    }
+
+    .half_logo {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    /* header end */
+
+    /* div_figure  */
+    .div_figure {
+        flex-wrap: wrap;
+    }
+
+    /* fiv_figure end  */
+
+    /* section gallery  */
+    .section_galery {
+        padding: 46px 0;
+    }
+
+    .grid_conteiner {
+        width: 90%;
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 60px 300px 60px 300px 60px 300px 60px 300px;
+        grid-template-areas:
+            "img1"
+            "."
+            "img2"
+            "."
+            "img3"
+            "."
+            "img4"
+            "."
+            "img5";
+    }
+
+    /* section gallery end */
+
+    /* section_artistry */
+    .h5_artistry {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .div_all_texts {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .div_texts {
+        width: 100%;
+    }
+
+    .h6_question {
+        margin-top: 80px;
+    }
+
+    .help_div {
+        width: 50%;
+    }
+
+    /* section_artistry end */
+
+    footer {
+        margin-top: 80px;
+        padding: 32px 50px 58px 50px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+
+
+
 }
