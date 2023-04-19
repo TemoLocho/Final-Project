@@ -35,6 +35,10 @@ header {
     z-index: 1;
 }
 
+.burger {
+    display: none;
+}
+
 .nav_header {
     width: 35%;
 }
@@ -288,6 +292,7 @@ figure {
 .div_products {
     width: 75%;
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
 }
 
