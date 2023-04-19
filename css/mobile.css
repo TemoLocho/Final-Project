@@ -201,6 +201,10 @@
         width: 50%;
     }
 
+    .form_subscribe {
+       width: 80%;
+    }
+
     /* section_artistry end */
 
     footer {
@@ -208,9 +212,22 @@
         padding: 32px 50px 58px 50px;
         flex-direction: column;
         align-items: center;
-
     }
 
+    .div_logos {
+        margin-bottom: 50px;
+    }
+
+    .div_adress {
+        margin-top: 50px;
+    }
+
+    .p_div_text1
+    .p_div_text2
+    .p_div_text3 {
+        width: 100%;
+    }
+    
 
 
 
