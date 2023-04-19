@@ -58,6 +58,37 @@
 
     /* footer end  */
 
+    /* page 2 */
+    /* section1_artworks */
+    .section1_artworks {
+        padding: 140px 0 124px 0;
+    }
+
+    .h1_section1_artworks {
+        width: 80%;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    /* section1_artworks end  */
+
+    /* products section  */
+    .div_search {
+        width: 60;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .form_search{
+        width: 70%;
+    }
+
+    .search_button{
+        width: 20%;
+    }
+
+
 }
 
 
@@ -210,7 +241,7 @@
     }
 
     .form_subscribe {
-       width: 90%;
+        width: 90%;
     }
 
     /* section_artistry end */
@@ -235,8 +266,9 @@
 
     .div_text_logos {
         text-align: center;
-        width: 40%;   
+        width: 40%;
     }
+
     /* footer end  */
 
 
