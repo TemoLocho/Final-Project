@@ -152,7 +152,11 @@
         flex-wrap: wrap;
     }
 
-    /* fiv_figure end  */
+    .div_1 {
+        width: 80%;
+    }
+
+    /* div_figure end  */
 
     /* section gallery  */
     .section_galery {
@@ -201,15 +205,19 @@
         width: 50%;
     }
 
+    .h4_subscribe {
+        font-size: 30px;
+    }
+
     .form_subscribe {
-       width: 80%;
+       width: 90%;
     }
 
     /* section_artistry end */
 
     footer {
         margin-top: 80px;
-        padding: 32px 50px 58px 50px;
+        padding: 32px 10px 58px 10px;
         flex-direction: column;
         align-items: center;
     }
@@ -222,10 +230,10 @@
         margin-top: 50px;
     }
 
-    .p_div_text1
-    .p_div_text2
-    .p_div_text3 {
-        width: 100%;
+    .div_text_logos {
+        text-align: center;
+        width: 50%;
+        
     }
     
 
