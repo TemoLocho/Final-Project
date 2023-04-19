@@ -73,7 +73,7 @@
     }
 
     .h1_section1 {
-        width: 90%;
+        width: 80%;
         margin-top: 90px;
         text-align: center;
     }
@@ -223,19 +223,21 @@
     }
 
     .div_logos {
+        width: 100%;
         margin-bottom: 50px;
+        margin-inline: auto;
+        gap: 15px;
     }
 
     .div_adress {
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     .div_text_logos {
         text-align: center;
-        width: 50%;
-        
+        width: 40%;   
     }
-    
+    /* footer end  */
 
 
 
