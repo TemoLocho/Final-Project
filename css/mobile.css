@@ -159,6 +159,18 @@
     /* section_subscribe end  */
     /* page 1 end  */
 
+    /* page 3 */
+    .section1_contact {
+        padding: 208px 15px 112px 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .div_contact {
+        width: 95%;
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 850px) {
@@ -281,5 +293,37 @@
     width: 90%;
 }
 
+/* page 3 */
 
+.section1_contact {
+    padding: 208px 15px 112px 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.div_baner {
+    margin-inline: auto;
+}
+
+.input_baner_name,
+.input_baner_mail {
+    width: 35%;
+}
+
+.div_contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 95%;
+    flex-direction: column;
+}
+
+.div_contact_map {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.map {
+    width: 100%;
+}
 }
