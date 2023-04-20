@@ -81,7 +81,7 @@
     }
 
     .form_search{
-        width: 70%;
+        width: 95%;
     }
 
     .search_button{
@@ -272,7 +272,14 @@
     /* footer end  */
 
 
+/* page 2 */
+.div_imgs {
+    width: 100%;
+}
 
+.div_all_numbers {
+    width: 90%;
+}
 
 
 }
